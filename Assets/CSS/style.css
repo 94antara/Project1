@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    color:yellow;
+}
+header {
+    padding: 35px 45px;
+    background-color: rgb(247, 244, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color:rgba(18, 78, 4, 0.918);
+}
+/*image style start */
+.image {
+    background-image: url("../Images/MainImage.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
